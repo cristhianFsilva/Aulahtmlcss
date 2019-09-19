@@ -1,0 +1,61 @@
+<!--tag para documentação do HTML. Neste caso é o HTML mais recente-->
+<!DOCTYPE html>
+<html>
+  <!--Cabeçalho - configurações da página-->
+  <head>
+    <title>Page Title</title>
+
+    <!--link para o arquivo CSS-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--definição de formato de codificação de caracteres utilizado no documento-->
+    <meta charset="UTF-8" />
+    <!--descrição da página-->
+    <meta name="description" content="Aula de Css e html" />
+    <!--palavras chave-->
+    <meta name="keywords" content="HTML, CSS, XML, JavaScript" />
+    <meta name="author" content="Cristhian" />
+    <!--indicação de que a página deve ser atualizada a cada 30 segundos-->
+    <meta http-equiv="refresh" content="50" />
+    <!--código javascript simplificado não recomendado-->
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "NÃO CORNO";
+      }
+      
+    </script>
+
+
+
+    <!--código javascript recomendado-->
+    <script src="js/inicial.js"></script>
+    
+    </script>
+  </head>
+
+  <body id="bodyId" class="bodyClass">
+    <h1 id="demo">BEM LOCO</h1>
+    <!--não funciona com tag html com dois id-->
+    <h2 onclick="myFunction()">CLICA AQUI CORNO</h2>
+    
+    <!--Para usar mais de um estilo em uma única tag html é necessário utilizar classes css-->
+    <h3 id="para1 para2" onclick="myFunction2()">CLICA AQUI TBM CORNO</h3>
+    <!--botao para trocar cor do body-->
+    
+      <button onclick="trocaBackCor()"> VERDE </button>
+      <button onclick="trocaBackCor2()"> BRANCO
+      </button>
+    
+  
+    
+    <div>
+      <p></p>
+      <label>Nome</label>
+      <input id="nome" type="text" onchange="escreverSaudacao(this.value)">;
+      <p></p>
+      <p id="saudacao">Boa noite</p>
+    </div>
+   
+    
+
+  </body>
+</html>

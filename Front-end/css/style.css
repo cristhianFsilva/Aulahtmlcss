@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+h2 {
+  color: red;
+  text-align: center;
+}
+h3 {
+  color: gray;
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+/*CSS para ser aplicado no id para*/
+/*Não recomendado pois o id é único, e é mais utilizado para o js*/
+/*Não é possivel adicionar duas formatações css para um mesmo objeto HTML referenciando apenas o ID*/
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+#para2 {
+  background-color: center;
+  color: blue;
+  font-family: "Courier New", Courier, monospace;
+}
+/*classe css começa com ponto*/
+/*é possivel usar mais de uma classe css em uma tag html*/
+.para1 {
+  text-align: center;
+  color: red;
+}
+.para2 {
+  background-color: center;
+  color: blue;
+  font-family: "Courier New", Courier, monospace;
+}
+/*Classe css atualizada do body*/
+.bodyClass{
+  background-color: white;
+}
+.bodyClass2{
+background-color: greenyellow;
+}
